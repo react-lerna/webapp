@@ -1,3 +1,5 @@
 # Webapp
 
-created using Next JS
+React JS
+
+NextJS
