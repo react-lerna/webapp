@@ -13,11 +13,17 @@ const Nav = () => (
   <nav>
     <ul>
       <li>
-        <Link href='/'>
-          <a>Home</a>
-        </Link>
+          <Link href='/'>
+              <a>Home</a>
+          </Link>
+          <Link href='/blog'>
+              <a>Blog</a>
+          </Link>
+          <Link href='/shop'>
+              <a>Shop</a>
+          </Link>
       </li>
-      {links.map(({ key, href, label }) => (
+        {links.map(({ key, href, label }) => (
         <li key={key}>
           <a href={href}>{label}</a>
         </li>
