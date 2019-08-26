@@ -1,6 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
-import Nav from '../components/nav'
+
+import { Atoms } from '@react-lerna/ui-components'
 
 const Home = () => (
   <div>
@@ -8,7 +9,7 @@ const Home = () => (
       <title>Home</title>
     </Head>
 
-    <Nav />
+    <Atoms.Button />
 
     <div className='hero'>
       <h1 className='title'>Welcome to Home</h1>
