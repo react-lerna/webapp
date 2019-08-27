@@ -10,6 +10,7 @@ const Home = () => (
     </Head>
 
     <Atoms.Button />
+    <Atoms.Text.Paragraph title={"test"} />
 
     <div className='hero'>
       <h1 className='title'>Homepage</h1>
