@@ -12,7 +12,7 @@ const Home = () => (
     <Atoms.Button />
 
     <div className='hero'>
-      <h1 className='title'>Welcome to Home</h1>
+      <h1 className='title'>Homepage</h1>
     </div>
 
   </div>
