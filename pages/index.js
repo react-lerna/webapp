@@ -1,22 +1,26 @@
-import React from 'react'
+import React, { Component } from 'react'
 import Head from 'next/head'
 
 import { Atoms } from '@react-lerna/ui-components'
 
-const Home = () => (
-  <div>
-    <Head>
-      <title>Home</title>
-    </Head>
+class Home extends Component {
+  render() {
+    return (
+      <div>
+        <Head>
+          <title>Home</title>
+        </Head>
 
-    <Atoms.Button />
-    <Atoms.Text.Paragraph title={"test"} />
+        <Atoms.Button label={"test"}/>
+        <Atoms.Text.Paragraph text={"test"} />
 
-    <div className='hero'>
-      <h1 className='title'>Homepage</h1>
-    </div>
+        <div className='hero'>
+          <h1 className='title'>Homepage</h1>
+        </div>
 
-  </div>
-)
+      </div>
+    )
+  }
+}
 
 export default Home
