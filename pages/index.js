@@ -12,7 +12,8 @@ class Home extends Component {
         </Head>
 
         <Atoms.Button label={"test"}/>
-        <Atoms.Text.Paragraph text={"test"} />
+        <Atoms.Link label={"test"}/>
+        <Atoms.Paragraph text={"test"} />
 
         <div className='hero'>
           <h1 className='title'>Homepage</h1>
