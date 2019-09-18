@@ -2,19 +2,19 @@ import React from 'react'
 import Head from 'next/head'
 import Nav from '../components/nav'
 
-const Shop = () => (
+const About = () => (
   <div>
     <Head>
-      <title>Shop</title>
+      <title>About</title>
     </Head>
 
     <Nav />
 
     <div className='hero'>
-      <h1 className='title'>Welcome to Shop!</h1>
+      <h1 className='title'>Welcome to About</h1>
     </div>
 
   </div>
 )
 
-export default Shop
+export default About

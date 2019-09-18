@@ -2,19 +2,19 @@ import React from 'react'
 import Head from 'next/head'
 import Nav from '../components/nav'
 
-const Blog = () => (
+const Contacts = () => (
   <div>
     <Head>
-      <title>Blog</title>
+      <title>Contacts</title>
     </Head>
 
     <Nav />
 
     <div className='hero'>
-      <h1 className='title'>Welcome to Blog</h1>
+      <h1 className='title'>Welcome to Contacts!</h1>
     </div>
 
   </div>
 )
 
-export default Blog
+export default Contacts
